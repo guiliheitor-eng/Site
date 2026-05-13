@@ -1,0 +1,22 @@
+body{background-color: rgb(0, 0, 0);}
+h1 {background-color: rgb(255, 0, 0);}
+h2 {background-color: aqua;}
+h1 {color: black;}
+ul {text-decoration-color: crimson;}
+image {border: 5cm;}
+
+h1 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+p {font-size: small;}
+p {background-color: rgb(255, 255, 255);}
+h2:hover {
+  animation: color-change 3s infinite;
+}
+li {color: white;}
+
+@keyframes color-change {
+  0%   { color: blue; }
+  25%  { color: green; }
+  50%  { color: red; }
+  75% { color: yellow; }
+  100% { color: blue; }
+}
